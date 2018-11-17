@@ -1,0 +1,51 @@
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.a-box{
+    width: 438px;
+    height: 180px;
+    background-color: beige;
+    position: relative;
+}
+.a-contetnt{
+    background-color: pink;
+    padding: 10px;
+    display: flex;
+    flex-direction:row-reverse;
+}
+.a-infoBox{
+    width: 80%;
+    position: absolute;
+    left: 10px;
+}
+.a-tag{
+    display: flex;
+}
+.a-tag-txt{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.a-tag-mouda{
+    background-color: #022148;
+    color: #FFC502;
+}
+.a-tag-category{
+    background-color: #FFC502;
+    color: #022148;
+}
+.a-img{
+    width: 160px;
+}
+.a-date{
+    position: absolute;
+    top:25px;
+    transform: translateX(20px)
+}
+.a-witerBox{
+    position: absolute;
+    top: 140px;
+    transform: translateX(20px)
+}
